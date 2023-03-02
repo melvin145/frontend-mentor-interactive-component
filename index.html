@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+      <div class="container">
+        <div class="rating-section">
+        <div class="icon"><i class="fa-solid fa-star"></i></div>
+        <div class="content">
+          <H1>How did we do?</H1>
+          <p>Please let us know how we did with your
+            support request.All feedback is appreciated to help us
+            improve our offering!
+          </p>
+        </div>
+        <div class="options">
+          <label for="rate1"  class="opt">1</label>
+          <input type="radio"  id="rate1" value="1">
+          <label for="rate2" class="opt">2</label>
+          <input type="radio" id="rate2" value="2">
+          <label for="rate3" class="opt">3</label>
+          <input type="radio" id="rate3" value="3">
+          <label for="rate4" class="opt">4</label>
+          <input type="radio" id="rate4" value="4">
+          <label for="rate5" class="opt">5</label>
+          <input type="radio" id="rate5" value="5">
+        </div>
+        <button class="btn" id="submit">Submit</button>
+    </div>
+      
+    <div class="Thank-section">
+      <div class="img-section">
+        <img src="images/illustration-thank-you.svg" alt="">
+        <p>You selected <span id="value">4</span> out of 5</p>
+      </div>
+      <div class="thank-content">
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking time to give a rating if you ever need more support,dont hesitate to get in touch</p>
+      </div>
+      </div>
+
+<script src="script.js"></script>
+</body>
+</html>
